@@ -13,8 +13,19 @@ header .container, main .container, footer .container {
 
 header {
     background: white;
+    overflow: auto;
 }
 
 main {
     background: white;
+}
+
+header h1 {
+    float: left;
+    width: 570px;
+}
+
+header nav {
+    float: right;
+    width: 285px;
 }
