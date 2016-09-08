@@ -50,3 +50,23 @@ footer .sitemap {
     float: right;
     width: 285px;
 }
+
+body {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+header h1, header h2, header h3, header h4 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    color: red;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
