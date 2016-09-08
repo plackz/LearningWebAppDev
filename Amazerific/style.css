@@ -18,6 +18,17 @@ header {
 
 main {
     background: white;
+    overflow: auto;
+}
+
+main .mainLeft {
+    float: left;
+    width: 570px;
+}
+
+main .mainRight {
+    float: right;
+    width: 285px;
 }
 
 header h1 {
@@ -26,6 +37,16 @@ header h1 {
 }
 
 header nav {
+    float: right;
+    width: 285px;
+}
+
+footer .contact {
+    float: left;
+    width: 570px;
+}
+
+footer .sitemap {
     float: right;
     width: 285px;
 }
